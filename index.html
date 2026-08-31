@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramana - Full-Stack Developer & UI/UX Designer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo"><span class="logo-icon">◆</span><span class="logo-text">Ramana</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">HELLO, I'M RAMANA</p>
+        <h1 class="hero-title"><span>Full-Stack</span><span>Developer</span><span>& Creator</span></h1>
+        <p class="hero-subtitle">Crafting beautiful, responsive web experiences with modern technologies.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual" id="heroVisual">
+        <div class="gradient-orb orb-1"></div><div class="gradient-orb orb-2"></div><div class="gradient-orb orb-3"></div>
+        <div class="code-card">
+          <div class="code-dots"><i></i><i></i><i></i></div>
+          <pre><span>const</span> developer = {
+  name: <b>"Ramana"</b>,
+  role: <b>"Full-Stack"</b>,
+  passion: <b>"Building"</b>
+};</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="glass-card">
+          <h3>Who I Am</h3>
+          <p>Passionate full-stack developer and UI/UX designer focused on creating useful, modern and responsive digital experiences.</p>
+          <div class="about-stats">
+            <div class="stat"><strong>15+</strong><span>Projects</span></div>
+            <div class="stat"><strong>1+</strong><span>Years Learning</span></div>
+            <div class="stat"><strong>10+</strong><span>Technologies</span></div>
+          </div>
+        </div>
+        <div class="glass-card">
+          <h3>Education</h3>
+          <div class="education-item"><span class="timeline-dot"></span><div><h4>B.E. Computer Science</h4><p>Computer Science & Engineering</p><small>2024 – Present</small></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid" id="skillsContainer"></div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid" id="projectsContainer"></div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">Experience & Internships</h2>
+      <div class="timeline" id="experienceContainer"></div>
+    </div>
+  </section>
+
+  <section id="chatbot" class="chatbot-section">
+    <div class="container">
+      <div class="chatbot-wrapper glass-card">
+        <div class="chatbot-header"><h3>Ask Me Anything</h3><p>Ask about my skills, projects, or experience.</p></div>
+        <div class="chatbot-container">
+          <div class="chat-messages" id="chatMessages"><div class="message bot-message"><p>Hi! 👋 I'm Ramana's portfolio assistant. Ask me about skills, projects or experience.</p></div></div>
+          <div class="suggested-questions" id="suggestedQuestions"></div>
+          <div class="chat-input-area"><input id="chatInput" class="chat-input" placeholder="Ask a question..."><button id="chatSend" class="chat-send">Send</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-content">
+        <div class="glass-card contact-info">
+          <h3>Get In Touch</h3>
+          <p>I'm open to internships, projects and collaboration opportunities.</p>
+          <div class="contact-list">
+            <a href="mailto:your-ramanavasanmanivannan@gmail.com">✉️ ramanavasanmanivannan@gmail.com</a>
+            <a href="#">📍 Thanjavur, India</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/ramanavasan" title="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/ramanavasan-manivannan-425381331/" title="LinkedIn">in</a>
+            <a href="ramanavasanmanivannan@gmail.com" title="Email">✉</a>
+          </div>
+        </div>
+      </div>.
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container"><p>© <span id="year"></span> Ramana. All rights reserved.</p></div></footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
